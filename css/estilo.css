@@ -1,0 +1,103 @@
+footer{
+	background: blanchedalmond;
+	text-align: center;
+	padding: 3rem;
+	width: 100%;
+}
+.centrar {
+	text-align: center;
+}
+main{
+	display: flex;
+	justify-content: center;
+	padding-top: 3rem;
+}
+h1{
+	text-align: center;
+	padding-top: 5rem;
+}
+main{
+    grid-area: main;
+    background: linear-gradient(160deg, rgba(1,0,36,1) -3rem, rgb(209 195 0) 2rem, rgb(52 61 0 / 59%) 100%, rgb(0 0 0) 100%, rgb(255 0 0) 100%)
+}
+body{
+   background: linear-gradient(160deg, rgba(1,0,36,1) -3rem, rgb(209 195 0) 2rem, rgb(52 61 0 / 59%) 100%, rgb(0 0 0) 100%, rgb(255 0 0) 100%)
+}
+.fixed-top{
+	background: blanchedalmond;
+}
+.toro{
+	padding: 2rem;
+}
+form{
+	padding-top: 5rem;
+}
+.contactoform{
+	width: 15rem;
+}
+.tarjetaa{
+	width: 100%;
+}
+.chicho{
+	padding-top: 4rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+	.tarjeta{
+		width:13rem;}
+    }
+
+@media only screen and (min-width: 1024px){
+    .tarjeta{width: 22rem;
+    	display: flex;
+    	justify-content: center;
+    }
+  }
+  .footer1{
+  	padding-top: 2rem;
+  }
+  /*---------------------------------- perros -----------------------------------------*/
+.cards-perros{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+ }
+ .cards-mate{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    width: 20rem;
+    margin: 20px;
+    padding: 1rem 0rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+ }
+h2{
+    font-size: 1.6rem;
+    padding-top: .4rem;
+}
+h4{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 80%;
+}
+.adoptar{
+    font-size: 1rem;
+    padding: .6rem;
+    background-color: orange;
+    border-radius: 10px;
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    .adoptar{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .
+    
+}
+/*---------------------------------- perros -----------------------------------------*/
